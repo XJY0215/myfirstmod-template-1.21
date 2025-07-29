@@ -1,5 +1,6 @@
 package com.xjy0215.myfirstmod;
 
+import com.xjy0215.myfirstmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -19,6 +20,7 @@ public class MyFirstMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
+		ModItems.registerModItems();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
