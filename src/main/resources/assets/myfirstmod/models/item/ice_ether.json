@@ -2,6 +2,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "myfirstmod:item/ice_ether"
+    "layer0": "myfirstmod:item/ice_ether.png"
   }
 }
