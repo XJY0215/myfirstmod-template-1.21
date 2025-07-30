@@ -1,5 +1,6 @@
 package com.xjy0215.myfirstmod;
 
+import com.xjy0215.myfirstmod.item.ModItemGroups;
 import com.xjy0215.myfirstmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -21,6 +22,7 @@ public class MyFirstMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModItems.registerModItems();
+		ModItemGroups.registerModItemGroups();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
